@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Horizontal Navigation Bar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation bar container */
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    /* Navigation links */
+    .navbar a {
+      float: left; /* Align links side by side */
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    /* Hover effect */
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    /* Active link */
+    .navbar a.active {
+      background-color: #04AA6D;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
+  </div>
+
+</body>
+</html>
